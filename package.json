@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "gatsby-example",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Gatsby example for build the others",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
@@ -14,11 +14,28 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@types/react": "^17.0.8",
+    "@types/react-dom": "^17.0.5",
+    "@types/styled-components": "^5.1.9",
+    "axios": "^0.21.1",
     "gatsby": "^3.4.1",
+    "gatsby-image": "^3.6.0",
+    "gatsby-plugin-react-helmet": "^4.6.0",
+    "gatsby-plugin-sass": "^4.6.0",
+    "gatsby-plugin-sharp": "^3.6.0",
+    "gatsby-source-filesystem": "^3.6.0",
+    "gatsby-transformer-remark": "^4.3.0",
+    "gatsby-transformer-sharp": "^3.6.0",
+    "node-sass": "^6.0.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "sass": "^1.34.0",
+    "styled-components": "^5.3.0"
   },
   "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/react-helmet": "^6.1.1",
     "prettier": "2.2.1"
   },
   "repository": {
